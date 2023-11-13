@@ -2,7 +2,7 @@
 
 Programar las funciones python:
 
-- [ ] `contiene(cadena1, cadena2):` -> `bool`
+- [x] `contiene(cadena1, cadena2):` -> `bool`
 - [ ] `contiene(cadena1, cadena2): -> ` # posicion o `False`
 - [ ] `esPlana(lista):` -> `bool` # predicado de no profundidad sub-listas
 - [ ] `esHomogenea(lista)` -> `bool` # homogeneidad en tipos
@@ -16,13 +16,12 @@ Programar las funciones python:
 - [ ] reset
 - [ ] __str__()
 
-
-- [ ] `Class ElevatorButton`
-- [ ] new()
-- [ ] off()
-- [ ] on()
-- [ ] toggle()
-- [ ] __str__()
+- [x] `Class ElevatorButton`
+- [x] __init__()
+- [x] setOff()
+- [x] setOn()
+- [x] toggle()
+- [x] __str__()
   
 - [ ] `Class ElevatorButtonBox`
 - [ ] new(howManyButtons)
