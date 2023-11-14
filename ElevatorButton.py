@@ -2,7 +2,7 @@
 # ElevatorButton.py
 
 class ElevatorButton:
-    """boton pulsador de dos estados"""
+    """Boton de ascensor. Un pulsador biestable"""
 
     def __init__(self, label):
         self.estado = "off"
@@ -27,6 +27,7 @@ class ElevatorButton:
 if __name__ == "__main__":
 
     eb = ElevatorButton("UP")
+
     print(eb)  # off
 
     eb.toggle()
@@ -39,3 +40,18 @@ if __name__ == "__main__":
     print(eb)  # off
     eb.setOff()
     print(eb)  # off
+
+    # botoneras ... class ElevatorButtonBox ...
+
+    ebU = ElevatorButton("UP")
+    ebD = ElevatorButton("DOWN")
+
+    wallButonBox = []
+    wallButonBox.append(ebU)
+    wallButonBox.append(ebD)
+
+    cabinButtonBox = []
+    cabinButtonBox.append(ElevatorButton("1"))
+    cabinButtonBox.append(ElevatorButton("2"))
+    cabinButtonBox.append(ElevatorButton("3"))
+    
