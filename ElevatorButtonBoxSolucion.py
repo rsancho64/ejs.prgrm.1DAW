@@ -1,17 +1,17 @@
-import ElevatorButton
+from ElevatorButton import ElevatorButton
 
 class ElevatorButtonBOX:
 
-    def __init__(self, tamMax) -> None:
+    def __init__(self, tamMax=30) -> None:
         self.capacity = tamMax
         self.lista = []  # None] * tam
 
     def __str__(self) -> str:
-        # respuesta = "BX: ["
-        # ## ... ++ cada boton de la lista...
-            hace falta un bucle y usar range()
-        # respuesta += "]"
-        # return respuesta
+        respuesta = "BX: ["
+        for i in range(len(self.lista)):
+            respuesta += str(self.lista[i])
+        respuesta += "]"
+        return respuesta
 
     def add(self, aButton) -> bool:
         if len(self.lista) < self.capacity:
@@ -21,29 +21,27 @@ class ElevatorButtonBOX:
 
 if __name__ == "__main__":
 
-    ebUP = ElevatorButton("UP")
-    ebDOWN = ElevatorButton("DOWN")
-    print(ebUP)
-    print(ebDOWN)
+    bbxWall = ElevatorButtonBOX(2)
+    print(bbxWall)
 
-    # botonera = []
-    # botonera.append(ebUP)
-    # botonera.append(ebDOWN)
+    bbxWall.add(ElevatorButton("UP"))
+    print(bbxWall)
 
-    # print(botonera)
+    bbxWall.add(ElevatorButton("DOWN"))
+    print(bbxWall)
 
-    bbx = ElevatorButtonBOX(2)
-    print(bbx)
+    if not bbxWall.add(ElevatorButton("666")):
+        print("bbxWall: button NOT added!!")
 
-    bbx.add(ebUP)
-    print(bbx)
+    print(bbxWall)
 
-    bbx.add(ebDOWN)
-    print(bbx)
+    bbxCabin = ElevatorButtonBOX()
+    print(f"capacidad: {bbxCabin.capacity}")
+    bbxCabin.add(ElevatorButton("-1"))
+    bbxCabin.add(ElevatorButton("calle"))
+    bbxCabin.add(ElevatorButton("1"))
+    bbxCabin.add(ElevatorButton("2"))
+    bbxCabin.add(ElevatorButton("3"))
+    bbxCabin.add(ElevatorButton("4"))
 
-    if not bbx.add(ElevatorButton("666")):
-        print("entrada no realizada")
-        
-    print(bbx)
-
-    # print(bbx)
+    print(bbxCabin)

@@ -1,6 +1,3 @@
-#! /usr/bin/python3
-# ElevatorButton.py
-
 class ElevatorButton:
     """Boton de ascensor. Un pulsador biestable"""
 
@@ -21,7 +18,7 @@ class ElevatorButton:
             self.estado = "on"
 
     def __str__(self):
-        return f"{self.label}: {self.estado}"
+        return f"[{self.label}: {self.estado}]"
 
 
 if __name__ == "__main__":
