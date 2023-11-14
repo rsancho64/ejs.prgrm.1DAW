@@ -1,6 +1,6 @@
 import ElevatorButton
 
-class elevatorButtonBOX:
+class ElevatorButtonBOX:
 
     def __init__(self, tamMax) -> None:
         self.capacity = tamMax
@@ -21,8 +21,8 @@ class elevatorButtonBOX:
 
 if __name__ == "__main__":
 
-    ebUP = elevatorButton("UP")
-    ebDOWN = elevatorButton("DOWN")
+    ebUP = ElevatorButton("UP")
+    ebDOWN = ElevatorButton("DOWN")
     print(ebUP)
     print(ebDOWN)
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     # print(botonera)
 
-    bbx = elevatorButtonBOX(2)
+    bbx = ElevatorButtonBOX(2)
     print(bbx)
 
     bbx.add(ebUP)
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     bbx.add(ebDOWN)
     print(bbx)
 
-    if not bbx.add(elevatorButton("666")):
+    if not bbx.add(ElevatorButton("666")):
         print("entrada no realizada")
         
     print(bbx)
