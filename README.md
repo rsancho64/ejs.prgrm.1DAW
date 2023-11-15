@@ -6,6 +6,8 @@
 - [tutorialsPoint: programacion con pytohn](https://www.tutorialspoint.com/python/)
 - [tutorialsPoint: poo con python](https://www.tutorialspoint.com/python/python_oops_concepts.htm)
 - Otro sitio que sale muchas veces buscando algo en python y dando buenas respuestas es [https://realpython.com/](https://realpython.com/) Tiene topicos abiertos, pero tiene modelo de negocio (cosas de pago)
+- [ellibrodepython](https://ellibrodepython.com/) da una panoramica con niveles (verde, naranja rojo)
+- [python españa](https://es.python.org/aprende-python/)  en español, por supuesto.
  
 ## Ejercicicios valorables:
 
