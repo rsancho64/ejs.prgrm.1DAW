@@ -1,5 +1,14 @@
 # ejs.prgrm.1DAW
 
+## Para estudio:
+
+- El pdf de este repo (introduccion a la programacion con python3)
+- [tutorialsPoint: programacion con pytohn](https://www.tutorialspoint.com/python/)
+- [tutorialsPoint: poo con python](https://www.tutorialspoint.com/python/python_oops_concepts.htm)
+- Otro sitio que sale muchas veces buscando algo en python y dando buenas respuestas es [https://realpython.com/](https://realpython.com/) Tiene topicos abiertos, pero tiene modelo de negocio (cosas de pago)
+ 
+## Ejercicicios valorables:
+
 Programar las funciones python:
 
 - [x] `contiene(cadena1, cadena2):` -> `bool`
