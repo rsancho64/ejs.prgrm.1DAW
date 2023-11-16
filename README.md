@@ -20,22 +20,22 @@ Programar las funciones python:
 - [ ] `formaCanonica(cadena1):` -> `str`
 
 - [ ] `Class cuentaKm`
-- [ ] new(limite)
-- [ ] avance
-- [ ] avance(n)
-- [ ] get
-- [ ] reset
-- [ ] __str__()
+ - [ ] new(limite)
+ - [ ] avance
+ - [ ] avance(n)
+ - [ ] get
+ - [ ] reset
+ - [ ] __str__()
 
 - [x] `Class ElevatorButton`
-- [x] __init__()
-- [x] setOff()
-- [x] setOn()
-- [x] toggle()
-- [x] __str__()
+ - [x] __init__()
+ - [x] setOff()
+ - [x] setOn()
+ - [x] toggle()
+ - [x] __str__()
   
 - [ ] `Class ElevatorButtonBox`
-- [ ] new(howManyButtons)
-- [ ] on(position)
-- [ ] __str__()
+ - [ ] new(howManyButtons)
+ - [ ] on(position)
+ - [ ] __str__()
 
